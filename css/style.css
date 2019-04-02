@@ -78,7 +78,7 @@ header{
 	width: 100%;
 	height: 130px;
 	z-index: 99;
-	background-color: #FFD1DC;
+	background-color:  #767272;
     background-image: -moz-linear-gradient(bottom, #b25d71 0%, #b25d71 0.27%, #d991a2 99.46%, #ffd1dc 100%);
     background-image: -moz-linear-gradient(bottom, #b25d71 0%, #b25d71 0.27%, #d991a2 99.46%, #ffd1dc 100%);
     background-image: -moz-linear-gradient(bottom, #b25d71 0%, #b25d71 0.27%, #d991a2 99.46%, #ffd1dc 100%);
@@ -172,7 +172,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
     height: 560px;
-    opacity: 60%;
+    opacity: 1.0;
 	background: url('../images/picture2.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
@@ -274,6 +274,17 @@ header .social li:first-child{
 	word-break: break-word;
 }
 
+.about .features_list h2{
+	color: #525151;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 46px;
+	margin: 0 0 20px 0;
+	word-break: break-word;
+}
+
+
 .about .features_list p{
 	color: #767272;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
@@ -282,6 +293,13 @@ header .social li:first-child{
 	line-height: 32px;
 }
 
+.about .features_list ul{
+	color: #767272;
+	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin-bottom: 45px;
+	line-height: 32px;
+}
 
 
 
@@ -305,7 +323,7 @@ header .social li:first-child{
 }
 
 .mission_statement h1{
-	color: #fff;
+	color: #767272;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin: 50px 0 0 0;
@@ -313,7 +331,7 @@ header .social li:first-child{
 }
 
 .mission_statement p{
-	color: #e0f7eb;
+	color: #767272;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin: 30px 0 0 0;
