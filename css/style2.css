@@ -17,7 +17,7 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: rgb(247, 247, 247); 
 }
 
 .faded {
@@ -52,7 +52,7 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: rgb(70, 174, 182);
+  background-color: #B25D71;
   border-color: white; 
   border-width: 3px;
 }
