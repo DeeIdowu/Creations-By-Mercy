@@ -187,8 +187,9 @@ header .social li:first-child{
 .hero .caption{
 	position: absolute;
 	max-width: 550px;
-	margin-left: 80px;
-	top: 50%;
+    margin-left: 80px;
+    top: 60%;
+    justify-content: center;
 	transform:translate(0,-50%);
 	-webkit-transform:translate(0,-50%);
 	-moz-transform:translate(0,-50%);
@@ -611,17 +612,6 @@ footer .copyright a{
 
 
 
-/*		Responsive CSS 		*/
-
-@media (max-width: 360px) {
-	.featured_on li{
-		display: block;
-		width: 100%;
-	}
-}
-
-@media (max-width: 767px) {
-
 
 	/*		Header 		*/
 	header .logo{
@@ -695,14 +685,7 @@ footer .copyright a{
 
 
 
-	/*		Featured on section		*/
-	.featured_on{
-		padding: 25px 0 5px 0!important;
-	}
-
-	.featured_on ul li{
-		margin-bottom: 25px!important;
-	}
+	
 
 
 
@@ -747,4 +730,100 @@ footer .copyright a{
 	.sub_box #mc_submit{
 		margin-top: 20px;
 	}
+
+
+
+/*media queries */
+@media only screen and (max-width: 980px){
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .hero {
+        max-width: 100%;
+
+    }
+
+    .mission_statement {
+        max-width: 100%;
+    }
+
+    .testoomonials {
+        max-width: 75%;
+    }
+   
+
+    footer {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .hero {
+        max-width: 100%;
+
+    }
+
+    .mission_statement {
+        max-width: 100%;
+    }
+
+    .testoomonials {
+        max-width: 75%;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    body {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container {
+        max-width: 80%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .hero {
+        max-width: 100%;
+
+    }
+
+    .mission_statement {
+        max-width: 100%;
+    }
+
+    .testoomonials {
+        max-width: 75%;
+    }
+
+    footer {
+        max-width: 100%;
+    }
 }
