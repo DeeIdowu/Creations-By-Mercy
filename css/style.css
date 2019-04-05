@@ -253,20 +253,13 @@ header .social li:first-child{
 /*		About section 		*/
 
 .about{
-	padding: 100px 0;
+    padding: 100px 0;
+    background-image: url('images/website2.jpg');
+    background-color: white;
+    background-blend-mode: multiply;
+    
 }
 
-.about .iphone{
-	max-width: 339px;
-	position: relative;
-	display: inline-block;
-	text-align: center;
-}
-
-.about .iphone img{
-	width: 100%;
-	height: auto;
-}
 
 .about .features_list{
 	margin-left: 50px;
