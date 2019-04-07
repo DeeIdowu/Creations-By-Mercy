@@ -189,7 +189,47 @@
 	<section class="sub_box">
         <p class="cta_text animated wow fadeInDown">Contact for inquiries:</p>
         <p class="cta_text animated wow fadeInDown">Email: creationsbymercyade@gmail.com</p>
-        <p class="cta_text animated wow fadeInDown">Phone number: 416-220-2623</p>
+		<p class="cta_text animated wow fadeInDown">Phone number: 416-220-2623</p>
+		
+		<!--Email form-->
+		<form id="form" action="mailto:dennis_idowu@live.com" method="POST" enctype="text/plain">
+			<div>
+				<label for="name">Name:</label>
+				<br>
+				<input type="text" class="text-right" id="name" name="user_name" value placeholder="Patricia Jones"/>
+				</div>
+				<br>
+				<div>
+					<label for="email">E-mail:</label>
+					<br>
+					<input type="text" class="text-right" id="name" name="user_mail" value placeholder="PatriciaJones10@gmail.com">
+				</div>
+				<br>
+				<div>
+					<label for="msg">Message:</label>
+					<br>
+					<textarea id="msg" name="user_message" placeholder="Enter your inquiry"></textarea>
+				</div>
+				<br> 
+		<div class ="button">
+			<button type="submit">Submit</button>
+		</div>
+		</form>
+		
+		<!--For the form button email function-->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#submit').click(function(){
+				$('form').attr('action',
+				'mailto:dennis_idowu@live.com?subject=' +
+				$('#name').val() + '&body=' + ('#msg'))
+				$('form').submit();
+			});
+		})
+		</script>
+
+
+
 	</section>
 	<!--  End Email Subscription Section  -->
 
