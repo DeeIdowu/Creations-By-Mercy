@@ -190,31 +190,53 @@
         <p class="cta_text animated wow fadeInDown">Contact for inquiries:</p>
         <p class="cta_text animated wow fadeInDown">Email: creationsbymercyade@gmail.com</p>
 		<p class="cta_text animated wow fadeInDown">Phone number: 416-220-2623</p>
-		
+		<p class="cta_text animated wow fadeInDown">Please leave a valid contact name, e-mail & phone number within the message</p>
 		<!--Email form-->
-		<form id="form" action="mailto:dennis_idowu@live.com" method="POST" enctype="text/plain">
-			<div>
-				<label for="name">Name:</label>
-				<br>
-				<input type="text" class="text-right" id="name" name="user_name" value placeholder="Patricia Jones"/>
-				</div>
-				<br>
-				<div>
-					<label for="email">E-mail:</label>
-					<br>
-					<input type="text" class="text-right" id="name" name="user_mail" value placeholder="PatriciaJones10@gmail.com">
-				</div>
-				<br>
-				<div>
-					<label for="msg">Message:</label>
-					<br>
-					<textarea id="msg" name="user_message" placeholder="Enter your inquiry"></textarea>
-				</div>
-				<br> 
-		<div class ="button">
-			<button type="submit">Submit</button>
-		</div>
-		</form>
+		<form action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+	<input type="text" name="subject" placeholder="Subject" />
+
+    <textarea name="text" placeholder="Message"></textarea>
+    <input type="hidden" name="access_token" value="uhoqik7sje7v08npbmgg7hzg" />
+      <!-- return urls can be fully qualified -OR-
+         start with / for root relative -OR-
+         start with . for url relative --> 
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+   
+
+    <!-- set the reply-to address -->
+    <!-- <input type="text" name="reply_to"
+                placeholder="Your Email" /> -->
+
+    <!-- to append extra fields, use the extra_ prefix.
+        Entries will be appended to your message body. -->
+    <!-- <input type="text" name="extra_phone_number"
+                placeholder="Phone Number" /> -->
+
+    <!-- to split your message into 160 chars
+         for an sms gateway -->
+    <!-- <input type="hidden"
+                name="sms_format" value="true" /> -->
+   <br>
+   <br>
+    <input id="submit_form" type="submit" value="Send" />
+</form>
+     
+<!-- optional, prevents the submit button from being pressed more than once -->
+<script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script> 
+
+    
 		
 		<!--For the form button email function-->
 		<script type="text/javascript">
