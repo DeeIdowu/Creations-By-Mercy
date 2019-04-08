@@ -99,25 +99,6 @@
 					<div class="features_list">
 						<h1 class="text-uppercase">Creations By Mercy</h1>
                         <p> Established by Mercy Adeyanju to cater to your event needs by providing memorable events through soigne touch and ambience for: Weddings, Birthday parties, Rite of Passages, Corporate and Social events.</p>
-                        <h2 class = "text-uppercase"> Services Provided:</h2>
-                        <br>
-                             <p>
-                                 <ul>
-                                     <li>
-                                         Event Planning - includes: itinerary, decor, floral, invitations and finalization of guestlist
-                                     </li>
-                                     <li>
-                                         Event Consultation - includes: budgeting, vendor/catering service budget
-                                     </li>
-                                     <li>
-                                         Event Coordination - includes: contacting vendors/ vendor contract reviews & accomodations
-                                     </li>
-                                     <li>
-                                         Event Personal Shopping
-                                     </li>
-                                 </ul>
-
-                             </p> 
 					</div>
 				</div>
 			</div>
@@ -196,82 +177,6 @@
 		</div>
 	</section>
 	<!--  End Testimonials Section  -->
-
-
-
-
-
-
-	<!--  Email Subscription Section  -->
-	<section class="sub_box">
-        <p class="cta_text animated wow fadeInDown">Contact for inquiries:</p>
-        <p class="cta_text animated wow fadeInDown">Email: creationsbymercyade@gmail.com</p>
-		<p class="cta_text animated wow fadeInDown">Phone number: 416-220-2623</p>
-		<p class="cta_text animated wow fadeInDown">Please leave a valid contact name, e-mail & phone number within the message</p>
-		<!--Email form-->
-		<form action="https://postmail.invotes.com/send"
-    method="post" id="email_form">
-
-	<input type="text" name="subject" placeholder="Subject" />
-
-    <textarea name="text" placeholder="Message"></textarea>
-    <input type="hidden" name="access_token" value="uhoqik7sje7v08npbmgg7hzg" />
-      <!-- return urls can be fully qualified -OR-
-         start with / for root relative -OR-
-         start with . for url relative --> 
-    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
-    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
-   
-
-    <!-- set the reply-to address -->
-    <!-- <input type="text" name="reply_to"
-                placeholder="Your Email" /> -->
-
-    <!-- to append extra fields, use the extra_ prefix.
-        Entries will be appended to your message body. -->
-    <!-- <input type="text" name="extra_phone_number"
-                placeholder="Phone Number" /> -->
-
-    <!-- to split your message into 160 chars
-         for an sms gateway -->
-    <!-- <input type="hidden"
-                name="sms_format" value="true" /> -->
-   <br>
-   <br>
-    <input id="submit_form" type="submit" value="Send" />
-</form>
-     
-<!-- optional, prevents the submit button from being pressed more than once -->
-<script>
-    var submitButton = document.getElementById("submit_form");
-    var form = document.getElementById("email_form");
-    form.addEventListener("submit", function (e) {
-        setTimeout(function() {
-            submitButton.value = "Sending...";
-            submitButton.disabled = true;
-        }, 1);
-    });
-</script> 
-
-    
-		
-		<!--For the form button email function-->
-		<script type="text/javascript">
-		$(document).ready(function(){
-			$('#submit').click(function(){
-				$('form').attr('action',
-				'mailto:dennis_idowu@live.com?subject=' +
-				$('#name').val() + '&body=' + ('#msg'))
-				$('form').submit();
-			});
-		})
-		</script>
-
-
-
-	</section>
-	<!--  End Email Subscription Section  -->
-
 
 
 
