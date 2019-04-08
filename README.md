@@ -2,6 +2,11 @@
 Here is a series of screenshots for a webpage created for a client of my mine: Mercy
 Utilized HTML,CSS, JavaScript and JQuery. Libraries such as Bootstrap, NiceScroll, Parallax, Owl Carousel, scrollTo, WowJS as well as postmail for direct email on the contact page
 
+##Link:
+https://deeidowu.github.io/Creations-By-Mercy/
+
+##Screenshots:
+
 ![Screen Shot 2019-04-08 at 2 15 07 PM](https://user-images.githubusercontent.com/38046425/55746940-10870380-5a09-11e9-8172-914d279da6be.png)
 ![Screen Shot 2019-04-08 at 2 15 19 PM](https://user-images.githubusercontent.com/38046425/55746954-167ce480-5a09-11e9-8f97-bb12445d774a.png)
 ![Screen Shot 2019-04-08 at 2 15 28 PM](https://user-images.githubusercontent.com/38046425/55746959-1977d500-5a09-11e9-9a39-b0356257eb90.png)
