@@ -39,7 +39,10 @@ html {
 
 body {
     font-family: "open_regular", Helvetica, Arial, sans-serif;
-  background: #d86f85;
+    background-blend-mode: screen;
+    background-image: url('/images/picture1.jpg');
+    background-color: #d86f85;
+    background-size: cover;
 	padding: 0px;
 	margin: 0px;
 }
