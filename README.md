@@ -5,6 +5,8 @@ Utilized HTML,CSS, JavaScript and JQuery. Libraries such as Bootstrap, NiceScrol
 # Links:
 https://deeidowu.github.io/Creations-By-Mercy/
 
+Official link: http://creationbymercy.com/
+
 # Screenshots:
 
 ![Screen Shot 2019-04-08 at 2 15 07 PM](https://user-images.githubusercontent.com/38046425/55746940-10870380-5a09-11e9-8172-914d279da6be.png)
